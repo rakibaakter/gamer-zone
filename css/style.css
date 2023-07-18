@@ -26,6 +26,16 @@
     border: none;
     margin-top: 20px;
 }
+.section-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.description{
+    color: #534C64;
+    font-size: 1.125rem;
+    font-weight: 400;
+    margin: 15px 0;
+}
  /* header section */
  header{
     width: auto;
@@ -109,4 +119,20 @@
 }
 .color-sky{
     background: #4EC5F7;
+}
+/* online game section */
+.online-game-container{
+    width: 80%;
+    margin:120px auto 0px;
+    text-align: center;
+    
+}
+.item-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    text-align: left;
+}
+.item img{
+    width: 100%;
 }
