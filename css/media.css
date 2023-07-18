@@ -29,6 +29,9 @@
     {
         font-size: 2rem;
     }
+    .button-container{
+        gap: 7px;
+    }
     .item-container{
         grid-template-columns: 1fr;
     }
