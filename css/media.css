@@ -17,7 +17,16 @@
     {
         width: 100%;
     }
-    
+    .details{
+        width: 70%;
+        margin: auto;
+    }
+    .details h1{
+        font-size: 4.5rem;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
 }
 
 /* for tablet device */
