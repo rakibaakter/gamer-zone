@@ -7,4 +7,21 @@
         flex-direction: column;
         gap: 20px;
     }
+    .banner-container{
+        padding: 20px;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+    .banner-content,
+    .banner-img img
+    {
+        width: 100%;
+    }
+    
+}
+
+/* for tablet device */
+
+@media screen and (min-width : 577px) and (max-width : 992px) {
+    
 }

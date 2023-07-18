@@ -11,26 +11,40 @@
  .primary-color-text{
     color: #FF42A5;
  }
-
+.color-title{
+    background-image: linear-gradient(to bottom, #F948B2 0%, #8758F1);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.primary-btn{
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 48px;
+    background: #FF42A5;
+    padding: 15px 20px;
+    border: none;
+    margin-top: 20px;
+}
  /* header section */
  header{
-    padding: 40px 0px;
     width: auto;
  }
  nav{
     max-width: 1440px;
     display: flex;
     align-items: center;
-    justify-content: space-around
+    justify-content: space-around;
+    margin: 40px 0px;
  }
- .title-icon{
+ .title-icon,
+ .banner-content ul li
+{
     display: flex;
     align-items: center;
     gap: 10px;
  }
  .title-icon img{
-    /* width: 80px;
-    height: 40px; */
     width: 60%;
     object-fit: cover;
  }
@@ -64,4 +78,35 @@
 }
 .menu-bar button img{
     width: 60%;
+}
+/* banner section  */
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: no-repeat;
+    padding: 80px 0px;
+}
+.details h1{
+    font-size: 6rem;
+    font-weight: 800;
+}
+.details ul{
+    list-style: none;
+}
+.banner-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner-img img{
+    width: 70%;
+}
+.color-sky{
+    background: #4EC5F7;
 }
