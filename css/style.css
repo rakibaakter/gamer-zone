@@ -149,22 +149,31 @@
     gap: 25px;
     text-align: left;
 }
-/* .item{
+.item__img {
     position: relative;
-} */
+  }
+  .item__img:hover::before {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: "Play Now";
+    font-weight: bold;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 98%;
+    height: 97%;
+    color: hotpink;
+    border: 3px solid hotpink;
+    border-radius: 4%;
+    background-image: url("../images/icons/play.png");
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 15%;
+  }
 .item img{
     width: 100%;
 }
-/* .item ::before{
-    content: "Watch Now" ;
-    height: auto;
-    width: auto;
-    position: absolute;
 
-}
-.item :hover{
-
-} */
 
 /* instant-play section */
 .play-container{
