@@ -129,7 +129,6 @@
     width: 80%;
     margin:120px auto 0px;
     text-align: center;
-    
 }
 .item-container{
     display: grid;
@@ -139,4 +138,37 @@
 }
 .item img{
     width: 100%;
+}
+
+/* instant-play section */
+.play-container{
+    width: 80%;
+    margin:80px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    width: 30%;
+    text-align: right;
+    position: relative;
+    bottom: 200px;
+}
+.img-container{
+    width: 40%;
+}
+.img-container>img{
+    width: 100%;
+}
+.relative-img{
+    position: relative;
+    bottom: 220px;
+    right: 150px;
+}
+/* online game container */
+.online-content{
+    margin-top: -50px;
+}
+.online-content > .content{
+    text-align: left;
 }
