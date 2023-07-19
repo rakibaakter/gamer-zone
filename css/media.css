@@ -2,7 +2,8 @@
 
 @media screen and (max-width : 576px) {
     nav, 
-    .menu-bar
+    .menu-bar,
+    .career-section
     {
         width: auto;
         flex-direction: column;
@@ -125,18 +126,29 @@
         justify-content: center;
         gap: 10px;
     }
+    .career-container,
+    .career-img
+    {
+        padding: 20px;
+        width: auto;
+        margin: auto;
+    }
+    
 }
 
 /* for tablet device */
 
 @media screen and (min-width : 577px) and (max-width : 992px) {
-    nav
+    nav,
+    .career-section
     {
         width: auto;
         flex-direction: column;
         gap: 20px;
     }
-    .banner-container
+    .banner-container, 
+    .career-container,
+    .career-img
     {
         width: 80%;
         padding: 20px;

@@ -198,10 +198,47 @@
 .online-content > .content{
     text-align: left;
 }
+/* career-section */
+.career-section,
+.list-container
+{
+    background: #FF42A5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.career-container .description{
+    color: white;
+}
+.career-container{
+    padding-left: 100px;
+    width: 60%;
+}
+.list-container ul{
+    list-style: none;
+}
+.list-item2{
+    text-align: right;
+}
+.career-img{
+    width: auto;
+}
+.career-img img{
+    width: 100%;
+}
+.career-btn{
+    color: #FF42A5;
+    border-radius: 48px;
+    background: white;
+    padding: 15px 20px;
+    border: none;
+    margin: 20px 0;
+}
 /* gamer-button-section */
 .gamer-button-section{
     background: #f6d8e7;
-    padding: 20px 50px;
+    padding: 50px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
