@@ -187,14 +187,20 @@
 }
 /* gamer-button-section */
 .gamer-button-section{
-    padding: 0px 120px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    justify-items: space-between;
-    column-gap: 10px;
+    background: #f6d8e7;
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
+.gamer-button-section a{
+    text-decoration: none;
 }
 .gamer-btn{
-    font-size: 1rem;
+    background: white;
+    font-size: 1.5rem;
     font-weight: 600;
     border-radius: 48px;
     padding: 10px 20px;
@@ -202,9 +208,13 @@
     margin: 20px 0;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    gap: 5px;
 }
 .gamer-btn img{
     width: 50px;
     height: 50px;
+}
+.gamer-button-section a :hover{
+    border: 1px solid #FF42A5;
+
 }

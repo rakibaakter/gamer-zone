@@ -91,19 +91,19 @@
         flex-direction: column-reverse;
     }
     .gamer-button-section{
-        width: 100%;
-        padding: 0;
+        width: auto;
+        padding: 25px;
         margin: auto;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
-        column-gap: 0px;
     }.gamer-btn{
         width: auto;
         font-size: 0.5rem;
-        padding: 2px 2px;
-        margin: 5px 2px;
+        font-weight: 400;
+        padding: 2px;
     }
     .gamer-btn img{
-        width: 20px;
+        width: 15px;
         height: 20px;
     }
 }
@@ -170,5 +170,21 @@
     .we-gamer-section{
         padding: 30px;
         justify-content: center;
+    }
+    .gamer-button-section{
+        width: auto;
+        padding: 25px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }.gamer-btn{
+        width: auto;
+        font-size: 0.5rem;
+        font-weight: 400;
+        padding: 2px;
+    }
+    .gamer-btn img{
+        width: 15px;
+        height: 20px;
     }
 }
