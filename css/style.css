@@ -185,3 +185,26 @@
 .online-content > .content{
     text-align: left;
 }
+/* gamer-button-section */
+.gamer-button-section{
+    padding: 0px 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: space-between;
+    column-gap: 10px;
+}
+.gamer-btn{
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 48px;
+    padding: 10px 20px;
+    border: none;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gamer-btn img{
+    width: 50px;
+    height: 50px;
+}

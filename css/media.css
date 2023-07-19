@@ -90,20 +90,45 @@
     .online-content{
         flex-direction: column-reverse;
     }
+    .gamer-button-section{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 0px;
+    }.gamer-btn{
+        width: auto;
+        font-size: 0.5rem;
+        padding: 2px 2px;
+        margin: 5px 2px;
+    }
+    .gamer-btn img{
+        width: 20px;
+        height: 20px;
+    }
 }
 
 /* for tablet device */
 
 @media screen and (min-width : 577px) and (max-width : 992px) {
+    nav
+    {
+        width: auto;
+        flex-direction: column;
+        gap: 20px;
+    }
     .banner-container
     {
-        width: auto;
+        width: 80%;
         padding: 20px;
-        width: auto;
+        margin: auto;
     }
     .banner-content,
-    .banner-img img
+    .banner-img
     {
+        width: 50%;
+    }
+    .banner-img img{
         width: 100%;
     }
     .details h1{
